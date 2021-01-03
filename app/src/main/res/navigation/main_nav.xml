@@ -6,22 +6,13 @@
     app:startDestination="@id/addFragment">
 
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="name.lkk.cpdaily.MainFragment"
-        android:label="main_fragment"
-        tools:layout="@layout/main_fragment" >
-        <action
-            android:id="@+id/action_mainFragment_to_addFragment"
-            app:destination="@id/addFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/detailFragment"
         android:name="name.lkk.cpdaily.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <action
             android:id="@+id/action_detailFragment_to_qrcode2"
-            app:destination="@id/qrcode" />
+            app:destination="@id/qrcode2" />
     </fragment>
     <fragment
         android:id="@+id/addFragment"
@@ -33,9 +24,8 @@
             app:destination="@id/detailFragment" />
     </fragment>
     <fragment
-        android:id="@+id/qrcode"
-        android:name="name.lkk.cpdaily.qrcode"
-        android:label="qrcode"
-        tools:layout="@layout/qrcode" >
+        android:id="@+id/qrcode2"
+        android:label="qrcode2"
+        tools:layout="@layout/qrcode">
     </fragment>
 </navigation>
