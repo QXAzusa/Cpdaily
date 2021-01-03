@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">cpdaily</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">USER_NAME</string>
+    <string name="shp_num">NUM</string>
+    <string name="shp_reason">REASON</string>
+    <string name="shp_name">SETTING</string>
+    <string name="shp_local">LOCAL</string>
+    <string name="shp_fdy">FDY</string>
+    <string name="logs">空\n</string>
+    <string name="name">你的名字 - 发起申请</string>
+    <string name="name2">你的名字 - 发起催办</string>
+</resources>
