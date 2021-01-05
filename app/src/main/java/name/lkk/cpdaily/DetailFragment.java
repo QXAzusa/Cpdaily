@@ -20,7 +20,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
+import java.time.DayOfWeek;
 import java.util.Date;
 
 import name.lkk.cpdaily.databinding.FragmentDetailBinding;
@@ -41,6 +41,7 @@ public class DetailFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private DayOfWeek ViewModelProviders;
 
     public DetailFragment() {
         // Required empty public constructor
@@ -103,7 +104,7 @@ public class DetailFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 NavController navController = Navigation.findNavController(view);
-                navController.navigate(R.id.action_detailFragment_to_qrcode2);
+                navController.navigate(R.id.action_detailFragment_to_qrcoded);
             }
         });
         //动态时间

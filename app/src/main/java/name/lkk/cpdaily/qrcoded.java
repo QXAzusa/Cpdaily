@@ -20,7 +20,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 
 import name.lkk.cpdaily.databinding.FragmentDetailBinding;
@@ -103,7 +102,7 @@ public class qrcoded extends Fragment {
             @Override
             public void onClick(View view) {
                 NavController navController = Navigation.findNavController(view);
-                navController.navigate(R.id.action_detailFragment_to_qrcode2);
+                navController.navigate(R.id.action_detailFragment_to_qrcoded);
             }
         });
         //动态时间

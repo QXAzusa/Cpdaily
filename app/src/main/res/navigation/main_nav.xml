@@ -11,8 +11,8 @@
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <action
-            android:id="@+id/action_detailFragment_to_qrcode2"
-            app:destination="@id/qrcode2" />
+            android:id="@+id/action_detailFragment_to_qrcoded"
+            app:destination="@id/qrcoded" />
     </fragment>
     <fragment
         android:id="@+id/addFragment"
@@ -24,8 +24,16 @@
             app:destination="@id/detailFragment" />
     </fragment>
     <fragment
-        android:id="@+id/qrcode2"
+        android:id="@+id/qrcoded"
         android:label="qrcode2"
         tools:layout="@layout/qrcode">
+        <action
+            android:id="@+id/action_qrcoded_to_qrcode2"
+            app:destination="@id/qrcode2" />
+    </fragment>
+    <fragment
+        android:id="@+id/qrcode2"
+        android:label="qrcode2"
+        tools:layout="@layout/qrcoded">
     </fragment>
 </navigation>
