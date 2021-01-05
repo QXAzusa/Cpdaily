@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/d" />
+        app:srcCompat="@drawable/_1__ce007a4_" />
 
     <TextView
         android:id="@+id/time"
